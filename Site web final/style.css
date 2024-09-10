@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.container {
+    text-align: center;
+}
+
+input[type=password] {
+    padding: 10px;
+    font-size: 16px;
+    margin: 5px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#error {
+    color: red;
+}
+#countdown {
+    font-size: 15vw; /* Taille du texte du timer */
+    font-weight: bold; /* Texte en gras */
+    text-align: center; /* Centrer le texte */
+    width: 100%; /* Prend toute la largeur de la fenêtre */
+    margin-top: 20vh; /* Centre verticalement le timer */
+}
